@@ -1,0 +1,16 @@
+# general/shared/misc
+.env
+data/*
+
+# jupyter
+notebooks/.*
+
+# python
+src/modules/__pycache__
+tests/__pycache__
+
+# go
+# ...
+
+# node
+# ...
