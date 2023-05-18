@@ -5,6 +5,8 @@ data/*
 # jupyter
 notebooks/.*
 
+notebooks/node_modules
+
 # python
 src/modules/__pycache__
 tests/__pycache__
