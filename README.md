@@ -253,3 +253,14 @@ Node.js v17.9.0
 ---
 
 https://nteract.io/kernels
+
+---
+
+> import fs from 'fs'
+> import fs from 'fs'
+> ^^^^^^
+
+Uncaught:
+SyntaxError: Cannot use import statement inside the Node.js REPL, alternatively use dynamic import
+
+>
