@@ -1,6 +1,10 @@
 # About
 
-Containerized Jupyter Lab Scientific Python Stack runtime Ubuntu environment with kernels to execute [Java](https://github.com/SpencerPark/IJava), [Go](https://github.com/gopherdata/gophernotes), [Node](https://github.com/n-riesco/ijavascript), [TypeScript](https://github.com/yunabe/tslab), and Python code. By using the [built-in magic commands](https://ipython.readthedocs.io/en/stable/interactive/magics.html#built-in-magic-commands) and IPython extensions, this template provides features such as[`autoreload`](https://ipython.readthedocs.io/en/stable/config/extensions/autoreload.html#autoreload) out of the box. The Docker volume mapping configuration provides persisted state for all notebooks and modules.
+Containerized [Jupyter Lab Scientific Python Stack](https://hub.docker.com/r/jupyter/scipy-notebook) runtime Ubuntu environment with kernels to execute [Java](https://github.com/SpencerPark/IJava), [Go](https://github.com/gopherdata/gophernotes), [Node](https://github.com/n-riesco/ijavascript), [TypeScript](https://github.com/yunabe/tslab), and Python code.
+
+![alt text](jupyter_lab_launcher_snippet.png)
+
+Aldo, by using the [built-in magic commands](https://ipython.readthedocs.io/en/stable/interactive/magics.html#built-in-magic-commands) and [IPython extensions](https://ipython.readthedocs.io/en/stable/config/extensions/index.html), this template provides the developer with features such as[`autoreload`](https://ipython.readthedocs.io/en/stable/config/extensions/autoreload.html#autoreload) out of the box. The Docker volume mapping configuration provides persisted state for all notebooks and modules.
 
 # Run Locally
 
@@ -36,7 +40,7 @@ Server: Docker Engine - Community
 1. Clone
 2. Setup `.env` as outlined in `~/.env.template` file
 3. Run `bin/build.bash` (no need to re-run the build if there are no new Docker-related or configuration changes)
-4. Run `bin/run.bash`
+4. Run `bin/run.bash`, monitor the terminal outputs, then visit [http://127.0.0.1:8888/lab](http://127.0.0.1:8888/lab) to access the interface
 
 ### Additional Runtime Commands
 
