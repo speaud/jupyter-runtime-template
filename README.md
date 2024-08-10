@@ -1,6 +1,11 @@
 # About
 
-Containerized [Jupyter Lab Scientific Python Stack](https://hub.docker.com/r/jupyter/scipy-notebook) runtime Ubuntu environment with kernels to execute [Java](https://github.com/SpencerPark/IJava), [Go](https://github.com/gopherdata/gophernotes), [Node](https://github.com/n-riesco/ijavascript), [TypeScript](https://github.com/yunabe/tslab), and Python code.
+Containerized [Jupyter Lab Scientific Python Stack](https://hub.docker.com/r/jupyter/scipy-notebook) runtime build on a Ubuntu distribution to include kernels to execute code from the following languages
+1. Python 3 (by default)
+1. [Go](https://github.com/gopherdata/gophernotes)
+1. [Java](https://github.com/SpencerPark/IJava)
+1. [JavaScript/Node](https://github.com/n-riesco/ijavascript)
+1. [TypeScript](https://github.com/yunabe/tslab)
 
 ![alt text](jupyter_lab_launcher_snippet.png)
 
