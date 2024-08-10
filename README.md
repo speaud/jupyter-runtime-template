@@ -47,7 +47,7 @@ Server: Docker Engine - Community
 3. Run `bin/build.bash` (no need to re-run the build if there are no new Docker-related or configuration changes)
 4. Run `bin/run.bash`, monitor the terminal outputs, then visit [http://127.0.0.1:8888/lab](http://127.0.0.1:8888/lab) to access the interface
 
-### Additional Runtime Commands
+### Additional Runtime Commands (custom)
 
 | Command | Details |
 | -------- | ------- |
